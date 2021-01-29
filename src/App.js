@@ -1,5 +1,29 @@
-// import logo from './logo.svg';
 import './App.css';
+import NameProp from './components/challenges/day02/NameProp';
+import ContactProp from './components/challenges/day02/ContactProp';
+import State from './components/challenges/day02/State'
+
+
+
+function App() {
+  return (
+    <div className="App">
+      <NameProp name="Perla" />
+      <NameProp name="Tony" />
+      <NameProp name="Sofia" />
+      <ContactProp name="Perla" age="23" school="EFA" graduationYear="2021" />
+      <p>-------------------------</p>
+      <State />
+
+    </div>
+  )
+}
+
+export default App;
+
+
+
+// import logo from './logo.svg';
 // import Header from './components/Header'
 // import Name from './components/challenges/day01/Name'
 // import Footer from './components/challenges/day01/Footer'
@@ -28,13 +52,3 @@ import './App.css';
 // }
 
 // export default App;
-
-function App() {
-  return (
-    <div className="App">
-
-    </div>
-  )
-}
-
-export default App;
